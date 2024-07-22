@@ -1,0 +1,156 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    padding: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для всех страниц */
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin-top: 0;
+}
+
+/* Стили для страницы login.html */
+.login-container {
+    padding: 2rem;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container form input[type="text"],
+.login-container form input[type="password"] {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.login-container form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-container form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Стили для страницы register.html */
+.register-container {
+    padding: 2rem;
+}
+
+.register-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-container form input[type="text"],
+.register-container form input[type="email"],
+.register-container form input[type="password"] {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.register-container form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-container form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Стили для страницы logout.html */
+.logout-container {
+    padding: 2rem;
+    text-align: center;
+}
+
+.logout-container p {
+    font-size: 1.2rem;
+}
+
+.logout-container a {
+    background-color: #333;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.logout-container a:hover {
+    background-color: #555;
+}
+
+/* Стили для страницы home.html */
+.home-container {
+    padding: 2rem;
+}
+
+.home-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.home-container p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.home-container a {
+    color: #333;
+    text-decoration: none;
+}
+
+.home-container a:hover {
+    text-decoration: underline;
+}
